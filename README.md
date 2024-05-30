@@ -1,5 +1,20 @@
 # Golang Developer Assigment
 
+## How to run this
+
+docker build --tag go-exercise .
+docker run -p 8080:8080 go-exercise
+
+go test (to run the tests)
+
+## One pair
+![image](https://github.com/LucasRosello/go-exercise/assets/55340118/0308689b-c9ee-4a9b-99c8-dde7c313f878)
+
+## Multiple Pairs
+
+![image](https://github.com/LucasRosello/go-exercise/assets/55340118/acb3485c-15c8-49c3-abf2-58820fe2750c)
+
+## Exercise
 Develop in Go language a service that will provide an API for retrieval of the Last Traded Price of Bitcoin for the following currency pairs:
 
 1. BTC/USD
